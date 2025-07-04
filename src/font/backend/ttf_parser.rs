@@ -6,7 +6,7 @@ use ttf_parser::{math::GlyphPart, LazyArray16};
 use crate::{font::{FontConstants, VariantGlyph, common::{GlyphInstruction, GlyphId}, Direction, Glyph}, error::FontError, dimensions::units::Ratio};
 use crate::dimensions::Unit;
 use crate::dimensions::units::{Em, FUnit};
-pub use ttf_parser::OutlineBuilder;
+pub use ttf_parser as ttf_parser_crate;
 
 
 /// A wrapper around 'ttf_parser::Face' which caches some of the needed values.
